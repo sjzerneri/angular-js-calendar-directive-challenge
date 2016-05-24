@@ -1,1 +1,59 @@
-/* your css code goes here */
+    /* your css code goes here */
+
+    header {
+        height: 3rem;
+        background-color: #434C80;
+        padding-left: 5rem;
+    }
+
+    body {}
+
+    select {
+        margin-top: 1.2rem;
+    }
+
+    .nav {
+        background: black;
+        padding: 10px;
+        position: fixed;
+        box-shadow: 0 0 10px #999;
+        top: 0;
+        left: 0;
+        right: 0;
+        color: white;
+    }
+
+    .nav select {
+        font-size: 20px;
+        width: 200px;
+        border: 2px solid #ddd;
+    }
+
+    .nav select option {
+        text-transform: capitalize;
+    }
+
+    .calendar-cell {
+        border: 1px solid #ddd;
+        max-width: 14%;
+        min-width: 14%;
+        box-sizing: border-box;
+        padding: 10px;
+        font-size: 2em;
+        height: 200px;
+    }
+
+    .calendar-cell.outer {
+        background: #eee;
+    }
+
+    .calendar-container {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+    }
+
+    Status API Training Shop Blog About
